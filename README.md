@@ -1,6 +1,6 @@
 # Hari Rudhran M — Portfolio
 
-Single-page developer portfolio. React + TypeScript + Tailwind CSS v4, built with Vite.
+A single-page developer portfolio built with **React + TypeScript + Tailwind CSS**, themed with a custom "Roblox Bubble" design system (chunky borders, primary blue glow, Fredoka display type).
 
 ## Run locally
 
@@ -9,27 +9,35 @@ npm install
 npm run dev
 ```
 
-Open the printed `localhost` URL.
+## Build
+
+```bash
+npm run build
+```
 
 ## Deploy to Vercel
 
-**Option A — Vercel Dashboard (no CLI, no terminal needed)**
-1. Push this folder to a new GitHub repository.
-2. Go to https://vercel.com/new and import that repository.
-3. Vercel auto-detects Vite. Framework Preset: **Vite**, Build Command: `npm run build`, Output Directory: `dist`. Click **Deploy**.
-4. You'll get a live `*.vercel.app` URL in about a minute. Add a custom domain later from the project's Settings → Domains if you want one.
+1. Push this folder to a new GitHub repository (see below).
+2. Go to https://vercel.com/new and import the repo.
+3. Framework preset: **Vite** (auto-detected). Build command `npm run build`, output directory `dist`.
+4. Deploy.
 
-**Option B — Vercel CLI**
+## Push to GitHub
+
 ```bash
-npm install -g vercel
-vercel login
-vercel        # first deploy, follow the prompts
-vercel --prod # promote to production
+git init
+git add .
+git commit -m "Initial portfolio"
+git branch -M main
+git remote add origin https://github.com/<your-username>/<repo-name>.git
+git push -u origin main
 ```
 
-No environment variables or backend are required — this is a fully static site.
+## Structure
 
-## Edit content
+- `src/data.ts` — all content (profile, about, skills, projects, education, certifications)
+- `src/components/` — Navbar, Hero, About, Skills, Projects, Education, Certifications, CTA, Contact, Footer
+- `src/index.css` — global styles, scroll reveal + animation keyframes
+- `tailwind.config.js` — Roblox Bubble color/typography/shadow tokens
 
-All editable content (name, links, about text, skills, projects, education) lives at the
-top of `src/App.tsx` in plain objects/arrays — update those and the whole page updates.
+To update content (new project, changed email, etc.), edit `src/data.ts` only — no need to touch components.
