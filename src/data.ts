@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Hari Rudhran M',
-  title: 'Full Stack Developer',
+  title: "Hi, I'm Hari Rudhran M",
   photo:
     'https://www.image2url.com/r2/default/images/1780421668350-a699716f-0f57-461f-b852-7f31595aa511.jpg',
   resumeUrl:
