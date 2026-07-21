@@ -125,13 +125,6 @@ export type Certification = {
 
 export const certifications: Certification[] = [
   {
-    name: 'Time Management',
-    platform: 'Infosys Springboard',
-    date: 'March 26, 2024',
-    skills: 'Time Management',
-    verifyUrl: 'https://drive.google.com/file/d/13eokGSOmPe5GiLUoo2hoLyA2UvMJYF82/view?usp=sharing',
-  },
-  {
     name: 'Basics of Python',
     platform: 'Infosys Springboard',
     date: 'December 15, 2023',
@@ -144,6 +137,13 @@ export const certifications: Certification[] = [
     date: 'September 2024',
     skills: 'Git & GitHub',
     verifyUrl: 'https://drive.google.com/file/d/1gtuMhxT3xIFm9f-cVltTu59SGOdUSOIg/view?usp=sharing',
+  },
+  {
+    name: 'Time Management',
+    platform: 'Infosys Springboard',
+    date: 'March 26, 2024',
+    skills: 'Time Management',
+    verifyUrl: 'https://drive.google.com/file/d/13eokGSOmPe5GiLUoo2hoLyA2UvMJYF82/view?usp=sharing',
   },
 ];
 
