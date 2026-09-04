@@ -93,6 +93,16 @@ export const projects: Project[] = [
     stack: ['Python', 'Next.js', 'PyTorch', 'NumPy', 'SQLite'],
     github: 'https://github.com/harirudhran/Privacy-Preserving-Federated-Learning',
   },
+  {
+    title: 'TaskFlow — Full-Stack Todo Application',
+    status: 'Completed',
+    category: 'Web App',
+    description: [
+      'A full-stack task management app with a RESTful API backend and persistent MongoDB storage — supports creating, updating, completing, and deleting tasks with real-time UI updates and schema-validated data integrity.',
+    ],
+    stack: ['TypeScript', 'Node.js', 'Express', 'MongoDB', 'React'],
+    github: 'https://github.com/YOUR_USERNAME/YOUR_REPO',
+  },
 ];
 
 export const categories = ['All', ...Array.from(new Set(projects.map((p) => p.category)))];
