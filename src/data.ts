@@ -38,9 +38,9 @@ export type SkillGroup = {
 };
 
 export const skillGroups: SkillGroup[] = [
-  { label: 'Frontend', skills: ['React', 'HTML', 'CSS', 'Tailwind CSS'] },
-  { label: 'Backend', skills: ['Spring Boot', 'REST APIs'] },
-  { label: 'Databases', skills: ['MySQL'] },
+  { label: 'Frontend', skills: ['React', 'HTML', 'CSS', 'Tailwind CSS','TypeScript'] },
+  { label: 'Backend', skills: ['Spring Boot', 'REST APIs','Node.js'] },
+  { label: 'Databases', skills: ['MySQL','MongoDB'] },
   { label: 'Tools', skills: ['Git', 'Vercel'] },
   {
     label: 'AI Tools',
