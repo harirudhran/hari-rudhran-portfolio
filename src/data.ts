@@ -10,7 +10,7 @@ export const profile = {
   email: 'mharirudhran@gmail.com',
   location: 'Bengaluru, Karnataka',
   experience: 0,
-  domain: 'Software Development', 'Full Stack Development',
+  domain: 'Full Stack Development',
   availability: 'Open for opportunities',
   ctaMessage: "Let's work together!",
   footerName: 'Hari Rudhran M',
