@@ -60,6 +60,18 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+  title: 'DoFlow — Full-Stack Todo Mobile Application',
+  status: 'Completed',
+  category: 'Mobile App',
+  description: [
+    'A full-stack task management mobile application built with React Native and a Node.js/Express backend. Users can securely register and log in, create and manage tasks, set priorities and deadlines, mark tasks as completed, and persist data using MongoDB.'
+  ],
+  stack: [
+    'React Native','TypeScript','Node.js','Express.js','MongoDB','Mongoose','JWT'
+  ],
+  github: 'https://github.com/harirudhran/todo-app',
+ },
+  {
     title: 'FoodRush: Full-Stack Food Delivery Application',
     status: 'Completed',
     category: 'Web App',
@@ -92,16 +104,6 @@ export const projects: Project[] = [
     ],
     stack: ['Python', 'Next.js', 'PyTorch', 'NumPy', 'SQLite'],
     github: 'https://github.com/harirudhran/Privacy-Preserving-Federated-Learning',
-  },
-  {
-    title: 'TaskFlow — Full-Stack Todo Application',
-    status: 'Completed',
-    category: 'Web App',
-    description: [
-      'A full-stack task management app with a RESTful API backend and persistent MongoDB storage — supports creating, updating, completing, and deleting tasks with real-time UI updates and schema-validated data integrity.',
-    ],
-    stack: ['TypeScript', 'Node.js', 'Express', 'MongoDB', 'React'],
-    github: 'https://github.com/YOUR_USERNAME/YOUR_REPO',
   },
 ];
 
