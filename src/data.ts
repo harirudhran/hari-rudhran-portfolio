@@ -4,7 +4,7 @@ export const profile = {
   photo:
     'https://www.image2url.com/r2/default/images/1788539206538-8657c616-30ba-492d-aace-a281f609c6a3.jpeg',
   resumeUrl:
-    'https://drive.google.com/file/d/1fhL0WX-qJ2fk6VeKhRu1-4C8dHNcjH25/view?usp=sharing',
+    'https://drive.google.com/file/d/1z-qotfTariDdez9-Lq-AY4qBoYONuI49/view?usp=sharing',
   typingRoles: ['Software Engineer', 'Developer'],
   tagline: 'Full-stack developer — clean code, scalable solutions.',
   email: 'mharirudhran@gmail.com',
