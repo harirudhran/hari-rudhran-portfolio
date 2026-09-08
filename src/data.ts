@@ -151,6 +151,14 @@ export type Certification = {
 
 export const certifications: Certification[] = [
   {
+  name: 'Java Full Stack Developer',
+  platform: 'TAP Academy',
+  date: 'July 2026',
+  skills: 'Java, SQL, HTML, CSS, JavaScript, Spring Boot, React, Full Stack Development',
+  verifyUrl: 'https://drive.google.com/file/d/1e_MNXUtfbTzNZYkeuenMpz31X9BZ2U0m/view?usp=sharing',
+ },
+  
+  {
     name: 'Git & GitHub Bootcamp',
     platform: 'Lets Upgrade',
     date: 'September 2024',
