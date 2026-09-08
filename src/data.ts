@@ -155,7 +155,7 @@ export const certifications: Certification[] = [
     platform: 'Lets Upgrade',
     date: 'September 2024',
     skills: 'Git & GitHub',
-    verifyUrl: 'https://drive.google.com/file/d/1gtuMhxT3xIFm9f-cVltTu59SGOdUSOIg/view?usp=sharing',
+    verifyUrl: 'https://drive.google.com/file/d/1IRbEIGEdwIHjM9cM1p27TdGWiqoLDs9U/view?usp=sharing',
   },
 
 ];
